@@ -1,0 +1,27 @@
+<hello name="{{ name }}"></hello>
+<p>Inner</p>
+<esvg></esvg>
+<div>
+  <p>1</p>
+  <div >
+    <svg>
+      <circle
+        class = "mycircle"        
+        id="circle1"
+        cx="50"
+        cy="50"
+        r="50"        
+      />
+    </svg>
+  </div>
+  <p>2</p>
+  <svg>
+    <circle id="circle2" [style]="cstyle" />
+  </svg>
+  <p>3</p>
+  <button (onClick)="switchColor()">Switch color</button>
+  <svg #mysvg id="mysvg">    
+    <circle id="circle3" />
+  </svg>
+</div>
+<p>end</p>
