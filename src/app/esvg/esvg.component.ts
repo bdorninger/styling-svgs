@@ -22,8 +22,8 @@ export class ESVGComponent implements OnInit {
     />
   </svg>`);
   }
-// stroke-width="5"
+  // stroke-width="5"
   elems(): string {
-    return `<p>foo</p>`
+    return `<p>foo</p>`;
   }
 }
